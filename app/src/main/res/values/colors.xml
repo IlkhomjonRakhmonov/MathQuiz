@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#03A9F4</color>
+
+    <color name="blue">#03A9F4</color>
+    <color name="black">#101010</color>
+    <color name="red">#F44336</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="silver">#938B8B</color>
+    <color name="custom_grey">#FADFDF</color>
+    <color name="grey_2">#D1CDCD</color>
+    <color name="background_color">#5C5959</color>
+    <color name="button_color">#848383</color>
+    <color name="button_pressed">#B9B9B9</color>
+    <color name="color_incorrect">#F30A0A</color>
+>>>>>>> 1ca6801 (12.04)
 </resources>

@@ -8,11 +8,24 @@
     <fragment
         android:id="@+id/splashFragment"
         android:name="uz.example.mathquiz.ui.SplashFragment"
-        android:label="fragment_slash"
-        tools:layout="@layout/fragment_slash" />
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
     <fragment
-        android:id="@+id/menuFragment2"
+        android:id="@+id/menuFragment"
         android:name="uz.example.mathquiz.ui.MenuFragment"
         android:label="fragment_menu"
-        tools:layout="@layout/fragment_menu" />
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="uz.example.mathquiz.ui.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
 </navigation>
