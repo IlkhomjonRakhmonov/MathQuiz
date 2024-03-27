@@ -30,6 +30,9 @@ class MenuFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding.button.setOnClickListener {
+            findNavController().navigate(R.id.gameFragment)
+        }
 //       val actionBar= (requireActivity() as AppCompatActivity).supportActionBar
 
         return binding.root
@@ -47,6 +50,7 @@ class MenuFragment : Fragment() {
                 Toast.makeText(requireContext(), "back bosildi", Toast.LENGTH_SHORT).show()
 //                requireActivity().onBackPressed()
                 Log.d("home", "onOptionsItemSelected: ${android.R.id.home}")
+
                true
             }
             R.id.save ->{
