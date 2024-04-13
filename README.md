@@ -1,1 +1,2 @@
-13.04 kuni math quiz ilovasi qisman bitirilib update qilindi
+Aqlni va xotirani charxlash uchun tez misol ishlash o'yini
+
